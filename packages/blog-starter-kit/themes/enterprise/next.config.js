@@ -86,10 +86,6 @@ const config = {
 				source: '/api/collect',
 				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
 			},
-			{
-				source: '/blog',
-				destination: 'https://nishantsood.vercel.app/blog',
-			},
 		];
 	},
 	async redirects() {
